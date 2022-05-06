@@ -30,3 +30,20 @@ Foi criada uma pastinha `.git` e é ali que toda a mágica acontece, então não
 
 * Depois de você ter criado a sua conta na plataforma, você irá em `Criar novo repositório`
 
+Você vai preencher com as informações do projeto, então dar o nome do repositório, colocar uma breve descrição e criar
+
+* Para passar o commit do meu repositório local (da minha máquina) para um repositório na plataforma do Github, usamos o `git remote add origin <link do repositório>` - Uma observação bem interessante é que usamos o git remote somente na primeira vez de mandar para o github, sei que é meio lógico, mas é um detalhe que resolvi citar aqui.
+
+* `origin` é o nome utilizado para referenciar o nosso repositório - Origin funciona como um ""apelido"
+
+Agora já temos o nosso repositório local conectado com o respositório do Github, porém o `commit` que damos na máquina não sobe automaticamente para a plataforma
+
+* Para isso precisaremos empurrar, enviar para lá com o `git push -u origin main` - Lembrando que eu não alterei o nome da minha branch e deixei com master
+
+Agora se recarregarmos a página iremos ver o nosso arquivo aqui na plataforma!
+
+## Alterando e adicionando arquivo
+
+Beleza, agora que temos o nosso repositório no Github configurado direitinho, podemos usar e abusar do que o Git oferece
+
+A cada nova alteração refaço todos os passos: git add ., depois git commit -m "mensagem" e por fim o git push que aí de fato minhas alterações serão visíveis no github
