@@ -2,8 +2,8 @@ Projeto Bootcmp Spread Fullstack Developer Dio
 
 ## Criar um projeto novo
 
-* Criar uma nova pasta no PC pra isso chamada `Git Tutorial`
-
+* Criar uma nova pasta no PC 
+* 
 * Abrir o VSCode nessa pasta
 
 * Criar um novo arquivo `README.md`
